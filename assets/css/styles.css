@@ -225,14 +225,58 @@ a {
     color: #0689FF;
 
 }
+
 .list-guide .arrow {
     margin-left: 6px;
 }
+
 .guide-cta {
     margin-top: 50px;
     display: flex;
     justify-content: center;
 }
+
 .guide-cta .btn {
     min-width: 170px;
+}
+
+/* Featured */
+.featured {
+    background: #F5FAFE;
+    margin-top: 120px;
+}
+
+.featured .content {
+    padding: 110px 0;
+}
+
+.featured .sub-title {
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 1;
+    color: #000339;
+}
+
+.featured .row {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.featured .desc {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.87;
+    color: #5A6473;
+}
+
+.featured .link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #0689FF;
 }
