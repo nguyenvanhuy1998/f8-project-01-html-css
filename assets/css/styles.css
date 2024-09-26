@@ -442,16 +442,14 @@ a {
     object-fit: cover;
     border-radius: 50%;
     margin-left: -3px;
-}
-
-.stats .avatar-1 {
-    background: #1F3BB1;
+    background: var(--bg-color, #FFFFFF);
     font-size: 0.7rem;
     font-weight: 450;
     letter-spacing: -0.02em;
     color: #FFFFFF;
-
 }
+
+
 
 .stats-trend .icon {
     margin-left: auto;
