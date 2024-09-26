@@ -371,21 +371,64 @@ a {
 
 .stats .img-block {
     width: 51%;
-}
-
-.stats .info {
-    width: 49%;
-    padding: 65px 0 69px 165px;
+    position: relative;
 }
 
 
-.stats .img-block img {
+
+
+.stats .img-block .image {
     display: block;
     margin-left: auto;
     width: 400px;
     height: 460px;
     object-fit: cover;
     border-radius: 12px;
+}
+
+.stats-trend {
+    position: absolute;
+    background-color: #FFFFFF ;
+    left: 0;
+    top: 0;
+    width: 239px;
+    border-radius: 0px 0px 12px 12px;
+    padding: 45px 22px 40px;
+
+}
+
+.stats-trend .value {
+    font-size: 2.6rem;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.01em;
+    color: #000339;
+
+}
+
+.stats-trend .desc {
+    margin-top: 8px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #A7A7A7;
+
+}
+
+.stats-trend .separate {
+    margin-top: 25px;
+    height: 1px;
+    background: #E9E9E9;
+
+}
+
+.stats-trend .icon {
+    margin-left: auto;
+}
+
+.stats .info {
+    width: 49%;
+    padding: 65px 0 69px 165px;
 }
 
 .stats .info .sub-title {
