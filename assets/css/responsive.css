@@ -77,6 +77,32 @@
     .separate {
         border-top: 1.5px solid #ebebeb;
     }
+
+    /* Hero */
+    .hero-img {
+        display: none;
+    }
+
+    .hero-wrap .info {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .hero-wrap .desc {
+        margin: 30px auto auto;
+        width: 80%;
+    }
+
+    .clients .images {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .featured .list {
+        grid-template-columns: 1fr 1fr;
+    }
+
 }
 
 /* Tablet */

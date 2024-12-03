@@ -5,7 +5,9 @@
 :root {
     --primary-color: #0F1B4C
 }
-html, body {
+
+html,
+body {
     scroll-behavior: smooth;
 }
 
@@ -266,6 +268,8 @@ a {
     margin-left: 6px;
 }
 
+
+
 .guide-cta {
     margin-top: 50px;
     display: flex;
@@ -317,7 +321,8 @@ a {
 }
 
 .featured .list {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     margin-top: 68px;
     gap: 30px;
 }
